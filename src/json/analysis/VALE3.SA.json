@@ -1,0 +1,1240 @@
+{
+    "data": [
+        {
+            "date": "2019-10-21",
+            "open": 47.459998999999996,
+            "high": 48.560001,
+            "low": 46.52,
+            "close": 48.560001,
+            "adjusted_close": 45.408283000000004,
+            "volume": 36400600.0,
+            "analisys": {
+                "macd": 0.0,
+                "macds": 0.0,
+                "macdh": 0.0,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-10-28",
+            "open": 48.650002,
+            "high": 48.799999,
+            "low": 46.860001000000004,
+            "close": 48.439999,
+            "adjusted_close": 45.29607,
+            "volume": 78264900.0,
+            "analisys": {
+                "macd": -0.0026923525640967227,
+                "macds": -0.0014957514244981793,
+                "macdh": -0.0011966011395985435,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-04",
+            "open": 49.080002,
+            "high": 50.529999,
+            "low": 48.810001,
+            "close": 49.18,
+            "adjusted_close": 45.988040999999996,
+            "volume": 98453400.0,
+            "analisys": {
+                "macd": 0.019516795167525913,
+                "macds": 0.007115947998462513,
+                "macdh": 0.0124008471690634,
+                "call_to_action": "buy",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-11",
+            "open": 48.439999,
+            "high": 48.490002000000004,
+            "low": 46.959998999999996,
+            "close": 47.0,
+            "adjusted_close": 43.949535,
+            "volume": 64554300.0,
+            "analisys": {
+                "macd": -0.049568425844078945,
+                "macds": -0.012086075660934998,
+                "macdh": -0.03748235018314395,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-18",
+            "open": 47.720001,
+            "high": 50.029999,
+            "low": 47.48,
+            "close": 50.029999,
+            "adjusted_close": 46.782871,
+            "volume": 73190600.0,
+            "analisys": {
+                "macd": 0.034505872071662225,
+                "macds": 0.0017739754256300949,
+                "macdh": 0.03273189664603213,
+                "call_to_action": "buy",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-25",
+            "open": 50.540001000000004,
+            "high": 51.5,
+            "low": 49.689999,
+            "close": 49.98,
+            "adjusted_close": 46.736118,
+            "volume": 90897300.0,
+            "analisys": {
+                "macd": 0.08225934475058949,
+                "macds": 0.02358998541266263,
+                "macdh": 0.05866935933792686,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-02",
+            "open": 50.150002,
+            "high": 51.689999,
+            "low": 50.110001000000004,
+            "close": 51.349998,
+            "adjusted_close": 48.0172,
+            "volume": 69933800.0,
+            "analisys": {
+                "macd": 0.17353044143325747,
+                "macds": 0.06153591478409804,
+                "macdh": 0.11199452664915943,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-09",
+            "open": 52.25,
+            "high": 54.0,
+            "low": 50.900002,
+            "close": 53.759997999999996,
+            "adjusted_close": 50.270782000000004,
+            "volume": 102152400.0,
+            "analisys": {
+                "macd": 0.3465595134642996,
+                "macds": 0.13003244541691164,
+                "macdh": 0.21652706804738794,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-16",
+            "open": 54.5,
+            "high": 54.990002000000004,
+            "low": 52.599998,
+            "close": 54.790001000000004,
+            "adjusted_close": 51.233932,
+            "volume": 118109000.0,
+            "analisys": {
+                "macd": 0.5122080394858841,
+                "macds": 0.21831690362974332,
+                "macdh": 0.2938911358561408,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-23",
+            "open": 54.900002,
+            "high": 55.0,
+            "low": 53.419998,
+            "close": 53.599998,
+            "adjusted_close": 50.121165999999995,
+            "volume": 44556100.0,
+            "analisys": {
+                "macd": 0.5609663400032474,
+                "macds": 0.2950902681498923,
+                "macdh": 0.2658760718533551,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-30",
+            "open": 53.650002,
+            "high": 54.5,
+            "low": 53.200001,
+            "close": 53.93,
+            "adjusted_close": 51.766048,
+            "volume": 46722600.0,
+            "analisys": {
+                "macd": 0.6059138146748637,
+                "macds": 0.36309668410368046,
+                "macdh": 0.24281713057118326,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-06",
+            "open": 53.799999,
+            "high": 54.369999,
+            "low": 53.049999,
+            "close": 53.360001000000004,
+            "adjusted_close": 51.218922,
+            "volume": 88179900.0,
+            "analisys": {
+                "macd": 0.5993131205485085,
+                "macds": 0.4138260681171943,
+                "macdh": 0.1854870524313142,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-13",
+            "open": 53.639998999999996,
+            "high": 57.09,
+            "low": 53.509997999999996,
+            "close": 57.0,
+            "adjusted_close": 54.712864,
+            "volume": 126412900.0,
+            "analisys": {
+                "macd": 0.792084614349271,
+                "macds": 0.4938787183519814,
+                "macdh": 0.29820589599728964,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-20",
+            "open": 57.0,
+            "high": 57.360001000000004,
+            "low": 53.689999,
+            "close": 53.799999,
+            "adjusted_close": 51.641265999999995,
+            "volume": 102226200.0,
+            "analisys": {
+                "macd": 0.7406293145629093,
+                "macds": 0.5454991271838129,
+                "macdh": 0.19513018737909638,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-27",
+            "open": 51.66,
+            "high": 52.09,
+            "low": 49.799999,
+            "close": 50.27,
+            "adjusted_close": 48.252907,
+            "volume": 138220500.0,
+            "analisys": {
+                "macd": 0.4828987169241472,
+                "macds": 0.5325224695823609,
+                "macdh": -0.04962375265821373,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-03",
+            "open": 50.5,
+            "high": 53.919998,
+            "low": 49.799999,
+            "close": 52.099998,
+            "adjusted_close": 50.009476,
+            "volume": 103821800.0,
+            "analisys": {
+                "macd": 0.3922535937897038,
+                "macds": 0.5036561806225612,
+                "macdh": -0.11140258683285742,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-10",
+            "open": 51.900002,
+            "high": 53.380001,
+            "low": 49.919998,
+            "close": 51.0,
+            "adjusted_close": 48.953617,
+            "volume": 124347000.0,
+            "analisys": {
+                "macd": 0.2501833332696535,
+                "macds": 0.4517937735665191,
+                "macdh": -0.20161044029686565,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-17",
+            "open": 51.709998999999996,
+            "high": 53.490002000000004,
+            "low": 49.799999,
+            "close": 50.130001,
+            "adjusted_close": 48.118526,
+            "volume": 111697000.0,
+            "analisys": {
+                "macd": 0.08345585898134544,
+                "macds": 0.3767747683945314,
+                "macdh": -0.29331890941318595,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-24",
+            "open": 50.130001,
+            "high": 50.130001,
+            "low": 43.200001,
+            "close": 44.310001,
+            "adjusted_close": 42.532055,
+            "volume": 122570900.0,
+            "analisys": {
+                "macd": -0.4190369577637014,
+                "macds": 0.2152851119416841,
+                "macdh": -0.6343220697053855,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-02",
+            "open": 44.880001,
+            "high": 49.09,
+            "low": 43.650002,
+            "close": 44.610001000000004,
+            "adjusted_close": 42.820015000000005,
+            "volume": 201061800.0,
+            "analisys": {
+                "macd": -0.7817199741620939,
+                "macds": 0.01355834342616462,
+                "macdh": -0.7952783175882585,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-09",
+            "open": 40.450001,
+            "high": 45.34,
+            "low": 32.450001,
+            "close": 42.900002,
+            "adjusted_close": 41.178631,
+            "volume": 302189700.0,
+            "analisys": {
+                "macd": -1.1657018055895918,
+                "macds": -0.22448928824639483,
+                "macdh": -0.941212517343197,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-16",
+            "open": 36.009997999999996,
+            "high": 43.57,
+            "low": 34.709998999999996,
+            "close": 35.189999,
+            "adjusted_close": 33.777992,
+            "volume": 274636500.0,
+            "analisys": {
+                "macd": -1.9662531943392594,
+                "macds": -0.5754315664210204,
+                "macdh": -1.390821627918239,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-23",
+            "open": 35.549999,
+            "high": 42.41,
+            "low": 33.369999,
+            "close": 40.099998,
+            "adjusted_close": 38.490978000000005,
+            "volume": 185651700.0,
+            "analisys": {
+                "macd": -2.230233053499809,
+                "macds": -0.9083571093684106,
+                "macdh": -1.3218759441313985,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-30",
+            "open": 40.919998,
+            "high": 44.57,
+            "low": 39.759997999999996,
+            "close": 40.5,
+            "adjusted_close": 38.874931,
+            "volume": 173651000.0,
+            "analisys": {
+                "macd": -2.3814375453934815,
+                "macds": -1.204371083041158,
+                "macdh": -1.1770664623523235,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-06",
+            "open": 42.599998,
+            "high": 45.5,
+            "low": 41.970001,
+            "close": 43.279999,
+            "adjusted_close": 41.543381,
+            "volume": 125503500.0,
+            "analisys": {
+                "macd": -2.2777925469312805,
+                "macds": -1.4198695058423405,
+                "macdh": -0.85792304108894,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-13",
+            "open": 43.200001,
+            "high": 46.0,
+            "low": 42.040001000000004,
+            "close": 44.0,
+            "adjusted_close": 42.234493,
+            "volume": 123636600.0,
+            "analisys": {
+                "macd": -2.1198602666246558,
+                "macds": -1.5602920591246014,
+                "macdh": -0.5595682075000543,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-20",
+            "open": 43.259997999999996,
+            "high": 44.689999,
+            "low": 41.830002,
+            "close": 43.759997999999996,
+            "adjusted_close": 42.00412,
+            "volume": 134081300.0,
+            "analisys": {
+                "macd": -1.9890496345899038,
+                "macds": -1.646251411177931,
+                "macdh": -0.34279822341197286,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-27",
+            "open": 44.459998999999996,
+            "high": 47.380001,
+            "low": 43.48,
+            "close": 44.860001000000004,
+            "adjusted_close": 43.059986,
+            "volume": 110188400.0,
+            "analisys": {
+                "macd": -1.785214075012341,
+                "macds": -1.6740978067072747,
+                "macdh": -0.11111626830506638,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-04",
+            "open": 43.700001,
+            "high": 48.959998999999996,
+            "low": 43.400002,
+            "close": 48.849998,
+            "adjusted_close": 46.889881,
+            "volume": 138784700.0,
+            "analisys": {
+                "macd": -1.3177889007698127,
+                "macds": -1.6027255823520044,
+                "macdh": 0.28493668158219165,
+                "call_to_action": "buy",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-11",
+            "open": 48.209998999999996,
+            "high": 49.299999,
+            "low": 46.939999,
+            "close": 48.049999,
+            "adjusted_close": 46.121983,
+            "volume": 151459000.0,
+            "analisys": {
+                "macd": -0.9956969956355195,
+                "macds": -1.4811693857258805,
+                "macdh": 0.48547239009036103,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-18",
+            "open": 50.34,
+            "high": 53.669998,
+            "low": 49.900002,
+            "close": 50.27,
+            "adjusted_close": 48.252907,
+            "volume": 162391000.0,
+            "analisys": {
+                "macd": -0.5702327081401393,
+                "macds": -1.2988014417449434,
+                "macdh": 0.7285687336048041,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-25",
+            "open": 51.41,
+            "high": 53.0,
+            "low": 48.779999,
+            "close": 53.0,
+            "adjusted_close": 50.873363,
+            "volume": 198189100.0,
+            "analisys": {
+                "macd": -0.030245859560821486,
+                "macds": -1.0448891552691462,
+                "macdh": 1.0146432957083247,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-01",
+            "open": 52.82,
+            "high": 56.700001,
+            "low": 52.5,
+            "close": 54.610001000000004,
+            "adjusted_close": 52.418762,
+            "volume": 161777000.0,
+            "analisys": {
+                "macd": 0.5113878770011198,
+                "macds": -0.7334363421423417,
+                "macdh": 1.2448242191434615,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-08",
+            "open": 54.98,
+            "high": 55.650002,
+            "low": 51.98,
+            "close": 53.400002,
+            "adjusted_close": 51.257317,
+            "volume": 102861500.0,
+            "analisys": {
+                "macd": 0.8388634778853259,
+                "macds": -0.4188168471001147,
+                "macdh": 1.2576803249854405,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-15",
+            "open": 52.5,
+            "high": 56.599998,
+            "low": 52.130001,
+            "close": 55.169998,
+            "adjusted_close": 52.956291,
+            "volume": 148444900.0,
+            "analisys": {
+                "macd": 1.2177711416779644,
+                "macds": -0.09136641967061862,
+                "macdh": 1.309137561348583,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-22",
+            "open": 55.0,
+            "high": 56.950001,
+            "low": 54.43,
+            "close": 55.619999,
+            "adjusted_close": 53.388237,
+            "volume": 90028100.0,
+            "analisys": {
+                "macd": 1.5339792937372394,
+                "macds": 0.23380824822386437,
+                "macdh": 1.300171045513375,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-29",
+            "open": 55.439999,
+            "high": 56.540001000000004,
+            "low": 54.049999,
+            "close": 55.259997999999996,
+            "adjusted_close": 53.04267900000001,
+            "volume": 103896000.0,
+            "analisys": {
+                "macd": 1.7365331009293143,
+                "macds": 0.534431264962225,
+                "macdh": 1.2021018359670892,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-06",
+            "open": 56.09,
+            "high": 57.720001,
+            "low": 55.59,
+            "close": 56.970001,
+            "adjusted_close": 54.684070999999996,
+            "volume": 104312600.0,
+            "analisys": {
+                "macd": 2.004755576810801,
+                "macds": 0.8285572149017757,
+                "macdh": 1.1761983619090255,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-13",
+            "open": 57.73,
+            "high": 62.93,
+            "low": 57.650002,
+            "close": 61.040001000000004,
+            "adjusted_close": 58.590759,
+            "volume": 152532600.0,
+            "analisys": {
+                "macd": 2.501471540181427,
+                "macds": 1.163195681309958,
+                "macdh": 1.3382758588714692,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-20",
+            "open": 61.119999,
+            "high": 61.490002000000004,
+            "low": 57.82,
+            "close": 58.599998,
+            "adjusted_close": 56.248661,
+            "volume": 105015800.0,
+            "analisys": {
+                "macd": 2.6751477061387234,
+                "macds": 1.4656262861983909,
+                "macdh": 1.2095214199403326,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-27",
+            "open": 59.099998,
+            "high": 62.950001,
+            "low": 58.98,
+            "close": 60.709998999999996,
+            "adjusted_close": 58.273998,
+            "volume": 144848400.0,
+            "analisys": {
+                "macd": 2.9421164900839827,
+                "macds": 1.760955731788874,
+                "macdh": 1.1811607582951087,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-03",
+            "open": 61.860001000000004,
+            "high": 62.900002,
+            "low": 59.360001000000004,
+            "close": 60.450001,
+            "adjusted_close": 58.024432999999995,
+            "volume": 306341700.0,
+            "analisys": {
+                "macd": 3.0973986342388358,
+                "macds": 2.028267052611105,
+                "macdh": 1.069131581627731,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-10",
+            "open": 60.700001,
+            "high": 62.82,
+            "low": 60.110001000000004,
+            "close": 61.349998,
+            "adjusted_close": 58.888317,
+            "volume": 125547100.0,
+            "analisys": {
+                "macd": 3.2528483994924002,
+                "macds": 2.273199991259384,
+                "macdh": 0.9796484082330164,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-17",
+            "open": 61.779999,
+            "high": 63.880001,
+            "low": 61.150002,
+            "close": 62.200001,
+            "adjusted_close": 59.704212,
+            "volume": 151639300.0,
+            "analisys": {
+                "macd": 3.402987632405555,
+                "macds": 2.49916982245646,
+                "macdh": 0.903817809949095,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-24",
+            "open": 62.939999,
+            "high": 63.130001,
+            "low": 60.330002,
+            "close": 61.099998,
+            "adjusted_close": 58.64835,
+            "volume": 98654300.0,
+            "analisys": {
+                "macd": 3.396380255804587,
+                "macds": 2.678619725271708,
+                "macdh": 0.7177605305328791,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-31",
+            "open": 61.099998,
+            "high": 62.34,
+            "low": 58.700001,
+            "close": 60.490002000000004,
+            "adjusted_close": 58.062828,
+            "volume": 139829000.0,
+            "analisys": {
+                "macd": 3.304976074689627,
+                "macds": 2.8038953603740695,
+                "macdh": 0.5010807143155573,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-07",
+            "open": 60.490002000000004,
+            "high": 62.299999,
+            "low": 58.32,
+            "close": 61.950001,
+            "adjusted_close": 59.464245,
+            "volume": 96633900.0,
+            "analisys": {
+                "macd": 3.3091480541099614,
+                "macds": 2.904948716077669,
+                "macdh": 0.4041993380322926,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-14",
+            "open": 62.799999,
+            "high": 63.650002,
+            "low": 60.110001000000004,
+            "close": 61.66,
+            "adjusted_close": 59.18587900000001,
+            "volume": 161665600.0,
+            "analisys": {
+                "macd": 3.2519617069233746,
+                "macds": 2.974352862010984,
+                "macdh": 0.2776088449123906,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-21",
+            "open": 61.049999,
+            "high": 61.389998999999996,
+            "low": 57.060001,
+            "close": 59.25,
+            "adjusted_close": 56.872581000000004,
+            "volume": 173672300.0,
+            "analisys": {
+                "macd": 2.9818395281599095,
+                "macds": 2.9758502219545635,
+                "macdh": 0.00598930620534599,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-28",
+            "open": 59.939999,
+            "high": 60.27,
+            "low": 58.02,
+            "close": 58.32,
+            "adjusted_close": 58.32,
+            "volume": 128936000.0,
+            "analisys": {
+                "macd": 2.6634644008793202,
+                "macds": 2.913372166022903,
+                "macdh": -0.2499077651435826,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-05",
+            "open": 58.900002,
+            "high": 61.939999,
+            "low": 58.209998999999996,
+            "close": 61.599998,
+            "adjusted_close": 61.599998,
+            "volume": 110443600.0,
+            "analisys": {
+                "macd": 2.640517066055729,
+                "macds": 2.858800522931455,
+                "macdh": -0.21828345687572615,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-12",
+            "open": 61.599998,
+            "high": 63.290001000000004,
+            "low": 61.029999,
+            "close": 62.240002000000004,
+            "adjusted_close": 62.240002000000004,
+            "volume": 72906300.0,
+            "analisys": {
+                "macd": 2.642557832161444,
+                "macds": 2.8155515897250356,
+                "macdh": -0.1729937575635918,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-19",
+            "open": 62.73,
+            "high": 63.889998999999996,
+            "low": 61.330002,
+            "close": 63.48,
+            "adjusted_close": 63.48,
+            "volume": 129006600.0,
+            "analisys": {
+                "macd": 2.7113284847670087,
+                "macds": 2.7947068164100783,
+                "macdh": -0.08337833164306963,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-26",
+            "open": 62.900002,
+            "high": 63.450001,
+            "low": 59.790001000000004,
+            "close": 60.549999,
+            "adjusted_close": 60.549999,
+            "volume": 125567500.0,
+            "analisys": {
+                "macd": 2.5038944721456815,
+                "macds": 2.7365440075370375,
+                "macdh": -0.23264953539135602,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-11-02",
+            "open": 60.549999,
+            "high": 63.959998999999996,
+            "low": 60.549999,
+            "close": 63.189999,
+            "adjusted_close": 63.189999,
+            "volume": 112849000.0,
+            "analisys": {
+                "macd": 2.520572484253293,
+                "macds": 2.6933495008679933,
+                "macdh": -0.17277701661470024,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-11-06",
+            "open": 62.380001,
+            "high": 63.639998999999996,
+            "low": 62.34,
+            "close": 63.189999,
+            "adjusted_close": 63.189999,
+            "volume": 26452500.0,
+            "analisys": {
+                "macd": 2.5048547450884797,
+                "macds": 2.655650408663041,
+                "macdh": -0.1507956635745611,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        }
+    ],
+    "stock": "VALE3.SA",
+    "start_date": "1571886000",
+    "end_date": "1604804400",
+    "interval": "1wk"
+}

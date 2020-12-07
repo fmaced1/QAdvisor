@@ -1,0 +1,9 @@
+pandas
+pretty-html-table
+pyyaml
+redis
+send-email
+simplejson
+stockstats
+telegram
+yfinance

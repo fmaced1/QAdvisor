@@ -1,0 +1,1240 @@
+{
+    "data": [
+        {
+            "date": "2019-10-21",
+            "open": 23.0,
+            "high": 23.120001000000002,
+            "low": 21.92,
+            "close": 22.82,
+            "adjusted_close": 22.82,
+            "volume": 23315300.0,
+            "analisys": {
+                "macd": 0.0,
+                "macds": 0.0,
+                "macdh": 0.0,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-10-28",
+            "open": 22.9,
+            "high": 23.25,
+            "low": 22.66,
+            "close": 22.91,
+            "adjusted_close": 22.91,
+            "volume": 25130400.0,
+            "analisys": {
+                "macd": 0.002019230769231939,
+                "macds": 0.0011217948717955216,
+                "macdh": 0.0008974358974364173,
+                "call_to_action": "buy",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-04",
+            "open": 23.1,
+            "high": 24.0,
+            "low": 22.6,
+            "close": 23.49,
+            "adjusted_close": 23.49,
+            "volume": 45328300.0,
+            "analisys": {
+                "macd": 0.020558666085410238,
+                "macds": 0.009087725697047454,
+                "macdh": 0.011470940388362784,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-11",
+            "open": 23.309998999999998,
+            "high": 24.23,
+            "low": 22.82,
+            "close": 24.02,
+            "adjusted_close": 24.02,
+            "volume": 30395300.0,
+            "analisys": {
+                "macd": 0.0476223721311726,
+                "macds": 0.022141467714027516,
+                "macdh": 0.02548090441714508,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-18",
+            "open": 24.16,
+            "high": 24.25,
+            "low": 23.709999,
+            "close": 24.190001000000002,
+            "adjusted_close": 24.190001000000002,
+            "volume": 23495700.0,
+            "analisys": {
+                "macd": 0.06809054541470161,
+                "macds": 0.0358102795002823,
+                "macdh": 0.03228026591441931,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-11-25",
+            "open": 24.200001,
+            "high": 24.49,
+            "low": 23.540001,
+            "close": 24.43,
+            "adjusted_close": 24.43,
+            "volume": 31849400.0,
+            "analisys": {
+                "macd": 0.08937731524908799,
+                "macds": 0.050329924457782324,
+                "macdh": 0.03904739079130566,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-02",
+            "open": 24.52,
+            "high": 25.549999,
+            "low": 24.5,
+            "close": 25.200001,
+            "adjusted_close": 25.200001,
+            "volume": 35725100.0,
+            "analisys": {
+                "macd": 0.13637157782517306,
+                "macds": 0.07210477154262837,
+                "macdh": 0.06426680628254469,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-09",
+            "open": 25.25,
+            "high": 26.030001000000002,
+            "low": 24.85,
+            "close": 25.41,
+            "adjusted_close": 25.41,
+            "volume": 35597900.0,
+            "analisys": {
+                "macd": 0.17567751205941207,
+                "macds": 0.09699524877462862,
+                "macdh": 0.07868226328478345,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-16",
+            "open": 25.549999,
+            "high": 25.67,
+            "low": 24.530001000000002,
+            "close": 25.67,
+            "adjusted_close": 25.67,
+            "volume": 51498300.0,
+            "analisys": {
+                "macd": 0.21312267053403744,
+                "macds": 0.12382125931216219,
+                "macdh": 0.08930141122187525,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-23",
+            "open": 25.66,
+            "high": 26.870001000000002,
+            "low": 25.52,
+            "close": 26.870001000000002,
+            "adjusted_close": 26.870001000000002,
+            "volume": 10812800.0,
+            "analisys": {
+                "macd": 0.29839583272333314,
+                "macds": 0.1629360977963434,
+                "macdh": 0.13545973492698973,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2019-12-30",
+            "open": 26.870001000000002,
+            "high": 26.889999,
+            "low": 25.629998999999998,
+            "close": 25.629998999999998,
+            "adjusted_close": 25.629998999999998,
+            "volume": 39248500.0,
+            "analisys": {
+                "macd": 0.2897690012436094,
+                "macds": 0.19068641235550263,
+                "macdh": 0.09908258888810675,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-06",
+            "open": 25.6,
+            "high": 26.27,
+            "low": 24.33,
+            "close": 25.67,
+            "adjusted_close": 25.67,
+            "volume": 69443300.0,
+            "analisys": {
+                "macd": 0.2816992839889707,
+                "macds": 0.21023216024991392,
+                "macdh": 0.07146712373905678,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-13",
+            "open": 25.780001000000002,
+            "high": 26.09,
+            "low": 23.879998999999998,
+            "close": 24.299999,
+            "adjusted_close": 24.299999,
+            "volume": 44022900.0,
+            "analisys": {
+                "macd": 0.1945888573275134,
+                "macds": 0.20692149385562333,
+                "macdh": -0.012332636528109925,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-20",
+            "open": 24.299999,
+            "high": 24.85,
+            "low": 23.700001,
+            "close": 24.33,
+            "adjusted_close": 24.33,
+            "volume": 30756100.0,
+            "analisys": {
+                "macd": 0.12859698242075623,
+                "macds": 0.19053594762429776,
+                "macdh": -0.06193896520354153,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-01-27",
+            "open": 23.950001,
+            "high": 24.23,
+            "low": 22.700001,
+            "close": 23.200001,
+            "adjusted_close": 23.200001,
+            "volume": 36574300.0,
+            "analisys": {
+                "macd": 0.010132452657014568,
+                "macds": 0.15313947730429311,
+                "macdh": -0.14300702464727855,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-03",
+            "open": 23.200001,
+            "high": 24.27,
+            "low": 22.879998999999998,
+            "close": 23.200001,
+            "adjusted_close": 23.200001,
+            "volume": 29358800.0,
+            "analisys": {
+                "macd": -0.07988505494599707,
+                "macds": 0.1051847657216459,
+                "macdh": -0.18506982066764296,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-10",
+            "open": 23.18,
+            "high": 24.450001,
+            "low": 22.459999,
+            "close": 23.02,
+            "adjusted_close": 23.02,
+            "volume": 40515300.0,
+            "analisys": {
+                "macd": -0.15868386712907423,
+                "macds": 0.05119530456578452,
+                "macdh": -0.20987917169485876,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-17",
+            "open": 23.040001,
+            "high": 24.32,
+            "low": 22.129998999999998,
+            "close": 23.889999,
+            "adjusted_close": 23.889999,
+            "volume": 34385200.0,
+            "analisys": {
+                "macd": -0.16222966342795075,
+                "macds": 0.007727260295117879,
+                "macdh": -0.16995692372306864,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-02-24",
+            "open": 23.889999,
+            "high": 23.889999,
+            "low": 20.65,
+            "close": 21.120001000000002,
+            "adjusted_close": 21.120001000000002,
+            "volume": 44251600.0,
+            "analisys": {
+                "macd": -0.3406734857653717,
+                "macds": -0.06297176931183873,
+                "macdh": -0.277701716453533,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-02",
+            "open": 21.120001000000002,
+            "high": 22.41,
+            "low": 18.879998999999998,
+            "close": 19.299999,
+            "adjusted_close": 19.299999,
+            "volume": 77400000.0,
+            "analisys": {
+                "macd": -0.5927332257366196,
+                "macds": -0.17015985508808565,
+                "macdh": -0.42257337064853395,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-09",
+            "open": 17.1,
+            "high": 18.84,
+            "low": 13.5,
+            "close": 17.450001,
+            "adjusted_close": 17.450001,
+            "volume": 115241100.0,
+            "analisys": {
+                "macd": -0.9027718207700488,
+                "macds": -0.3180462595520421,
+                "macdh": -0.5847255612180067,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-16",
+            "open": 14.33,
+            "high": 19.200001,
+            "low": 13.63,
+            "close": 18.41,
+            "adjusted_close": 18.41,
+            "volume": 143554300.0,
+            "analisys": {
+                "macd": -1.0676569852974325,
+                "macds": -0.4690828580927377,
+                "macdh": -0.5985741272046947,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-23",
+            "open": 18.200001,
+            "high": 21.4,
+            "low": 16.799999,
+            "close": 19.15,
+            "adjusted_close": 19.15,
+            "volume": 75438700.0,
+            "analisys": {
+                "macd": -1.1326018905003927,
+                "macds": -0.6025746610945607,
+                "macdh": -0.530027229405832,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-03-30",
+            "open": 19.190001000000002,
+            "high": 20.700001,
+            "low": 18.459999,
+            "close": 20.639999,
+            "adjusted_close": 20.639999,
+            "volume": 58154600.0,
+            "analisys": {
+                "macd": -1.0672419968243503,
+                "macds": -0.6959490764499505,
+                "macdh": -0.37129292037439976,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-06",
+            "open": 21.209999,
+            "high": 21.889999,
+            "low": 18.85,
+            "close": 19.469998999999998,
+            "adjusted_close": 19.469998999999998,
+            "volume": 50652500.0,
+            "analisys": {
+                "macd": -1.0851884305478983,
+                "macds": -0.774092163505684,
+                "macdh": -0.31109626704221427,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-13",
+            "open": 19.24,
+            "high": 20.68,
+            "low": 19.01,
+            "close": 20.24,
+            "adjusted_close": 20.24,
+            "volume": 45643600.0,
+            "analisys": {
+                "macd": -1.0323744793895848,
+                "macds": -0.8259052220431119,
+                "macdh": -0.20646925734647292,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-20",
+            "open": 19.549999,
+            "high": 21.26,
+            "low": 18.68,
+            "close": 20.549999,
+            "adjusted_close": 20.549999,
+            "volume": 43343100.0,
+            "analisys": {
+                "macd": -0.9571881045267467,
+                "macds": -0.8522254369145104,
+                "macdh": -0.10496266761223638,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-04-27",
+            "open": 20.85,
+            "high": 21.299999,
+            "low": 19.34,
+            "close": 19.790001,
+            "adjusted_close": 19.790001,
+            "volume": 40958000.0,
+            "analisys": {
+                "macd": -0.9417499831244385,
+                "macds": -0.8701650464078724,
+                "macdh": -0.07158493671656607,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-04",
+            "open": 18.959999,
+            "high": 20.65,
+            "low": 18.77,
+            "close": 20.299999,
+            "adjusted_close": 20.299999,
+            "volume": 43990900.0,
+            "analisys": {
+                "macd": -0.8819887334355911,
+                "macds": -0.872533448738509,
+                "macdh": -0.009455284697082122,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-11",
+            "open": 19.77,
+            "high": 20.75,
+            "low": 19.129998999999998,
+            "close": 19.66,
+            "adjusted_close": 19.66,
+            "volume": 34550500.0,
+            "analisys": {
+                "macd": -0.8715818542119358,
+                "macds": -0.8723428939377769,
+                "macdh": 0.0007610397258410728,
+                "call_to_action": "buy",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-18",
+            "open": 20.16,
+            "high": 21.450001,
+            "low": 20.0,
+            "close": 20.889999,
+            "adjusted_close": 20.889999,
+            "volume": 31768600.0,
+            "analisys": {
+                "macd": -0.7633968092498513,
+                "macds": -0.850532076612947,
+                "macdh": 0.08713526736309574,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-05-25",
+            "open": 21.5,
+            "high": 23.66,
+            "low": 20.91,
+            "close": 22.530001000000002,
+            "adjusted_close": 22.530001000000002,
+            "volume": 61266900.0,
+            "analisys": {
+                "macd": -0.5493148861437014,
+                "macds": -0.7902408709046576,
+                "macdh": 0.24092598476095617,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-01",
+            "open": 22.48,
+            "high": 23.629998999999998,
+            "low": 21.83,
+            "close": 23.110001,
+            "adjusted_close": 23.110001,
+            "volume": 52845000.0,
+            "analisys": {
+                "macd": -0.3326897463783425,
+                "macds": -0.6986726077174991,
+                "macdh": 0.3659828613391566,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-08",
+            "open": 23.530001000000002,
+            "high": 24.700001,
+            "low": 22.91,
+            "close": 24.07,
+            "adjusted_close": 24.07,
+            "volume": 36999600.0,
+            "analisys": {
+                "macd": -0.08799992641495535,
+                "macds": -0.5764761104717586,
+                "macdh": 0.48847618405680326,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-15",
+            "open": 23.27,
+            "high": 24.6,
+            "low": 22.91,
+            "close": 23.83,
+            "adjusted_close": 23.83,
+            "volume": 50422600.0,
+            "analisys": {
+                "macd": 0.08641075624191785,
+                "macds": -0.4438449355326968,
+                "macdh": 0.5302556917746146,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-22",
+            "open": 24.049999,
+            "high": 24.049999,
+            "low": 22.559998999999998,
+            "close": 22.790001,
+            "adjusted_close": 22.790001,
+            "volume": 30003100.0,
+            "analisys": {
+                "macd": 0.14363521198654183,
+                "macds": -0.326310764009501,
+                "macdh": 0.4699459759960428,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-06-29",
+            "open": 22.879998999999998,
+            "high": 23.290001,
+            "low": 22.17,
+            "close": 22.49,
+            "adjusted_close": 22.49,
+            "volume": 37598300.0,
+            "analisys": {
+                "macd": 0.1640940851246846,
+                "macds": -0.22820432429472723,
+                "macdh": 0.39229840941941185,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-06",
+            "open": 23.02,
+            "high": 23.75,
+            "low": 22.549999,
+            "close": 22.84,
+            "adjusted_close": 22.84,
+            "volume": 38554500.0,
+            "analisys": {
+                "macd": 0.20476061899667997,
+                "macds": -0.14159334724028283,
+                "macdh": 0.3463539662369628,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-13",
+            "open": 22.99,
+            "high": 23.48,
+            "low": 21.719998999999998,
+            "close": 23.469998999999998,
+            "adjusted_close": 23.469998999999998,
+            "volume": 39846100.0,
+            "analisys": {
+                "macd": 0.2821935231949233,
+                "macds": -0.05682188807864646,
+                "macdh": 0.33901541127356977,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-20",
+            "open": 23.389999,
+            "high": 24.379998999999998,
+            "low": 22.27,
+            "close": 22.299999,
+            "adjusted_close": 22.299999,
+            "volume": 43752000.0,
+            "analisys": {
+                "macd": 0.25018438935625653,
+                "macds": 0.004587530120121596,
+                "macdh": 0.24559685923613495,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-07-27",
+            "open": 22.620001000000002,
+            "high": 23.040001,
+            "low": 22.08,
+            "close": 22.219998999999998,
+            "adjusted_close": 22.219998999999998,
+            "volume": 34425000.0,
+            "analisys": {
+                "macd": 0.2161266608246457,
+                "macds": 0.04689985567924241,
+                "macdh": 0.1692268051454033,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-03",
+            "open": 22.42,
+            "high": 23.52,
+            "low": 21.139999,
+            "close": 23.33,
+            "adjusted_close": 23.33,
+            "volume": 40146000.0,
+            "analisys": {
+                "macd": 0.2723081221276793,
+                "macds": 0.09198534441813525,
+                "macdh": 0.18032277770954405,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-10",
+            "open": 23.41,
+            "high": 23.49,
+            "low": 21.98,
+            "close": 22.809998999999998,
+            "adjusted_close": 22.809998999999998,
+            "volume": 31364100.0,
+            "analisys": {
+                "macd": 0.27309228587997936,
+                "macds": 0.12820919797822974,
+                "macdh": 0.1448830879017496,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-17",
+            "open": 22.77,
+            "high": 22.99,
+            "low": 21.860001,
+            "close": 22.559998999999998,
+            "adjusted_close": 22.559998999999998,
+            "volume": 44567500.0,
+            "analisys": {
+                "macd": 0.25125869863130035,
+                "macds": 0.15282043807220896,
+                "macdh": 0.09843826055909138,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-24",
+            "open": 22.610001,
+            "high": 24.35,
+            "low": 21.93,
+            "close": 23.76,
+            "adjusted_close": 23.76,
+            "volume": 106994200.0,
+            "analisys": {
+                "macd": 0.324237258707857,
+                "macds": 0.18710529551549096,
+                "macdh": 0.13713196319236606,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-08-31",
+            "open": 23.6,
+            "high": 23.75,
+            "low": 21.59,
+            "close": 22.34,
+            "adjusted_close": 22.34,
+            "volume": 74425500.0,
+            "analisys": {
+                "macd": 0.2674397714607508,
+                "macds": 0.20317275057363865,
+                "macdh": 0.06426702088711217,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-07",
+            "open": 22.34,
+            "high": 22.51,
+            "low": 20.75,
+            "close": 21.02,
+            "adjusted_close": 21.02,
+            "volume": 30574500.0,
+            "analisys": {
+                "macd": 0.11722058754579123,
+                "macds": 0.18598183875538893,
+                "macdh": -0.0687612512095977,
+                "call_to_action": "sell",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-14",
+            "open": 21.139999,
+            "high": 21.83,
+            "low": 20.799999,
+            "close": 21.35,
+            "adjusted_close": 21.35,
+            "volume": 40052200.0,
+            "analisys": {
+                "macd": 0.02395237495676028,
+                "macds": 0.1535752233039893,
+                "macdh": -0.129622848347229,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "none",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-21",
+            "open": 21.1,
+            "high": 21.280001000000002,
+            "low": 20.219998999999998,
+            "close": 20.84,
+            "adjusted_close": 20.84,
+            "volume": 36689100.0,
+            "analisys": {
+                "macd": -0.0891834047357527,
+                "macds": 0.10502263148885786,
+                "macdh": -0.19420603622461058,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-09-28",
+            "open": 20.85,
+            "high": 20.92,
+            "low": 18.790001,
+            "close": 18.950001,
+            "adjusted_close": 18.950001,
+            "volume": 57962000.0,
+            "analisys": {
+                "macd": -0.324561321292844,
+                "macds": 0.01910461466960483,
+                "macdh": -0.3436659359624488,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-05",
+            "open": 18.84,
+            "high": 19.18,
+            "low": 17.74,
+            "close": 18.02,
+            "adjusted_close": 18.02,
+            "volume": 56879600.0,
+            "analisys": {
+                "macd": -0.5780384671285717,
+                "macds": -0.10032536533933772,
+                "macdh": -0.47771310178923393,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-12",
+            "open": 18.02,
+            "high": 19.139999,
+            "low": 17.940001000000002,
+            "close": 18.75,
+            "adjusted_close": 18.75,
+            "volume": 52956400.0,
+            "analisys": {
+                "macd": -0.7127264333666226,
+                "macds": -0.2228066977364687,
+                "macdh": -0.4899197356301539,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-19",
+            "open": 18.59,
+            "high": 18.950001,
+            "low": 18.059998999999998,
+            "close": 18.309998999999998,
+            "adjusted_close": 18.309998999999998,
+            "volume": 30192500.0,
+            "analisys": {
+                "macd": -0.8446305411240438,
+                "macds": -0.34717237521718997,
+                "macdh": -0.4974581659068538,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "increase",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-10-26",
+            "open": 18.129998999999998,
+            "high": 18.700001,
+            "low": 17.309998999999998,
+            "close": 18.34,
+            "adjusted_close": 18.34,
+            "volume": 49106100.0,
+            "analisys": {
+                "macd": -0.9359444950704408,
+                "macds": -0.46492748758499824,
+                "macdh": -0.4710170074854425,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-11-02",
+            "open": 18.34,
+            "high": 20.0,
+            "low": 18.139999,
+            "close": 19.209999,
+            "adjusted_close": 19.209999,
+            "volume": 40054000.0,
+            "analisys": {
+                "macd": -0.9283164785150362,
+                "macds": -0.557605719209045,
+                "macdh": -0.3707107593059912,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        {
+            "date": "2020-11-06",
+            "open": 19.799999,
+            "high": 19.82,
+            "low": 19.16,
+            "close": 19.209999,
+            "adjusted_close": 19.209999,
+            "volume": 9482400.0,
+            "analisys": {
+                "macd": -0.9117409051592418,
+                "macds": -0.6284330213954826,
+                "macdh": -0.28330788376375915,
+                "call_to_action": "none",
+                "diff_from_last_call_adj_close%": 0.0,
+                "distance_between_macd_macds": "decrease+",
+                "list": [
+                    1,
+                    2,
+                    3
+                ]
+            }
+        }
+    ],
+    "stock": "RAIL3.SA",
+    "start_date": "1571886000",
+    "end_date": "1604804400",
+    "interval": "1wk"
+}
