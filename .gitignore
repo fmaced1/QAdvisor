@@ -1,6 +1,9 @@
 # Custom
 app/charts/*
 app/json/analysis/*
+*.SA.jpeg
+*.SA.json
+
 .vscode
 .DS_Store
 

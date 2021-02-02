@@ -4,7 +4,7 @@ class Macd:
     def __init__(self):
         pass
 
-    def macd_analisys(stocks_df, signals_of_revert, candles):
+    def macd_analisys(stocks_df, signals_of_revert, candles, ticker, consider_tickers, ignore_tickers):
         stocks_df = Sdf.retype(stocks_df)
         """open_ = stocks_df['open']
         high = stocks_df['high']
@@ -37,7 +37,7 @@ class Macd:
 
             stocks_df['macdh_a'] = analisys_df
 
-            if (stocks_df['macdh_a'][-candles:].apply(lambda sentence: any(word in sentence for word in signals_of_revert))).any():
+            if (stocks_df['macdh_a'][-candles:].apply(lambda sentence: any(word in sentence for word in signals_of_revert))).any() and ticker not in ignore_tickers or ticker in consider_tickers:
                 stocks_df = stocks_df.iloc[::-1]
                 return stocks_df
             else:

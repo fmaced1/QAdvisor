@@ -28,7 +28,7 @@ class Charts:
 
         fig.update_layout(height=1200, width=1200, title_text=ticker)
 
-        fig.write_image("app/charts/jpeg/{}.jpeg".format(ticker))
+        fig.write_image("src/charts/jpeg/{}.jpeg".format(ticker))
 
     def candlestick_chart(ticker, df, extension_type):
 
@@ -124,13 +124,13 @@ class Charts:
         fig.update_layout(height=1200, width=1200, title_text=ticker)
 
         if extension_type == "html":
-            filename = "app/charts/html/{0}.html".format(ticker)
+            filename = "src/charts/html/{0}.html".format(ticker)
             fig.write_html(filename)
 
             return filename
 
         elif extension_type == "jpeg":
-            filename = "app/charts/jpeg/{0}.jpeg".format(ticker)
+            filename = "src/charts/jpeg/{0}.jpeg".format(ticker)
             fig.write_image(filename)
 
             return filename

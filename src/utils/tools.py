@@ -1,7 +1,7 @@
 import logging, uuid, os
 import simplejson as json
 
-logging.basicConfig(filename="app/log/log.log",
+logging.basicConfig(filename="src/log/log.log",
                 format='%(asctime)s %(message)s', 
                 filemode='a')
 
@@ -10,7 +10,7 @@ log.setLevel(logging.DEBUG)
 
 
 def init_logging():
-    logging.basicConfig(filename="app/log/log.log",
+    logging.basicConfig(filename="src/log/log.log",
                     format='%(asctime)s %(message)s', 
                     filemode='a')
 
