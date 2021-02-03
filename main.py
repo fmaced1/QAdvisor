@@ -1,15 +1,13 @@
 import pandas as pd
 
-from src.utils.tools import *
+from src.utils.tools import Cronometer, remove_files_in_folder, remove_file
 from src.utils.telebot import Telebot
 from src.utils.ydownload import StockData
 from src.utils.strategies.macd import Macd
 from src.utils.charts.charts import Charts
 
-""" Cronometer
-from timeit import default_timer as timer
-from datetime import timedelta
-start = timer()"""  
+cron = Cronometer()
+start_time = cron.start_cronometer()
 
 """TODO Config - arquivo de config"""
 df_tickers_list = pd.read_csv("src/config/tickers.csv", sep=',')
@@ -32,7 +30,7 @@ for i in range(0, len(df_tickers_list.index)):
     ticker = str("{0}.SA".format(df_tickers_list['tickers'][i]))
 
     stocks_df = Macd.macd_analisys(
-        StockData.get_history(ticker, period, interval), 
+        StockData().get_history(ticker, period, interval), 
         signals_of_revert, 
         candles,
         ticker,
@@ -55,6 +53,4 @@ for i in range(0, len(df_tickers_list.index)):
 #if photos:
 #    Telebot().send_photos(photos)
 
-""" Cronometer
-end = timer()
-print(timedelta(seconds=end-start))"""
+print(cron.stop_cronometer(start_time))

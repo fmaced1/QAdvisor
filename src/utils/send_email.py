@@ -11,7 +11,6 @@ import pandas as pd
 # https://dev.to/siddheshshankar/convert-a-dataframe-into-a-pretty-html-table-and-send-it-over-email-4663
 
 def send_mail(body):
-
     message = MIMEMultipart()
     message['Subject'] = 'Top 5 Economies of the World!'
     message['From'] = '<sender>@gmail.com'

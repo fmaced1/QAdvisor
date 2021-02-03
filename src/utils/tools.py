@@ -8,6 +8,16 @@ logging.basicConfig(filename="src/log/log.log",
 log = logging.getLogger(__name__)
 log.setLevel(logging.DEBUG)
 
+from timeit import default_timer as timer
+class Cronometer(object):
+    def start_cronometer(self):
+        return timer()
+
+    def stop_cronometer(self, start_time):
+        from datetime import timedelta
+        end_time = timer()
+
+        return timedelta(seconds=end_time - start_time)
 
 def init_logging():
     logging.basicConfig(filename="src/log/log.log",
