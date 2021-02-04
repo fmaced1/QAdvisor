@@ -1,8 +1,15 @@
-import redis, pickle, zlib
+import redis, pickle, zlib, os
 
 class RedisCache(object):
     def __init__(self):
-        self.redis_client = redis.StrictRedis(host='localhost', port=6379)
+        redis_host = os.getenv('REDIS_HOST')
+        redis_port = os.getenv('REDIS_PORT')
+        
+        if redis_host == None and redis_port == None:
+            redis_host = "localhost"
+            redis_port = 6379
+
+        self.redis_client = redis.StrictRedis(host=redis_host, port=redis_port)
 
     def set_value(self, _key, _value, expiration_seconds):
         """ Loads json object into redis

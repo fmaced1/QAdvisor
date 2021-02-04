@@ -1,16 +1,16 @@
 import pandas as pd
 
-from src.utils.tools import Cronometer, remove_files_in_folder, remove_file
-from src.utils.telebot import Telebot
-from src.utils.ydownload import StockData
-from src.utils.strategies.macd import Macd
-from src.utils.charts.charts import Charts
+from utils.tools import Cronometer, remove_files_in_folder, remove_file
+from utils.telebot import Telebot
+from utils.ydownload import StockData
+from utils.strategies.macd import Macd
+from utils.charts.charts import Charts
 
 cron = Cronometer()
 start_time = cron.start_cronometer()
 
 """TODO Config - arquivo de config"""
-df_tickers_list = pd.read_csv("src/config/tickers.csv", sep=',')
+df_tickers_list = pd.read_csv("config/tickers.csv", sep=',')
 ignore_tickers = ""     #["CSNA3.SA", "USIM5.SA"]
 consider_tickers = ["COGN3.SA", "MGLU3.SA"]
 period = "1y"
@@ -19,7 +19,7 @@ candles = 3
 signals_of_revert = ["R+"]
 
 """Cleanup folders"""
-folders_to_cleanup = ["src/charts/html/", "src/charts/jpeg/"]
+folders_to_cleanup = ["charts/html/", "charts/jpeg/"]
 remove_files_in_folder(folders_to_cleanup)
 remove_file("analisys.txt")
 

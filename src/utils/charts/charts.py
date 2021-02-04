@@ -124,13 +124,13 @@ class Charts:
         fig.update_layout(height=1200, width=1200, title_text=ticker)
 
         if extension_type == "html":
-            filename = "src/charts/html/{0}.html".format(ticker)
+            filename = "charts/html/{0}.html".format(ticker)
             fig.write_html(filename)
 
             return filename
 
         elif extension_type == "jpeg":
-            filename = "src/charts/jpeg/{0}.jpeg".format(ticker)
+            filename = "charts/jpeg/{0}.jpeg".format(ticker)
             fig.write_image(filename)
 
             return filename

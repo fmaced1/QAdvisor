@@ -1,7 +1,7 @@
 import logging, uuid, os
 import simplejson as json
 
-logging.basicConfig(filename="src/log/log.log",
+logging.basicConfig(filename="logs/log.log",
                 format='%(asctime)s %(message)s', 
                 filemode='a')
 
@@ -20,7 +20,7 @@ class Cronometer(object):
         return timedelta(seconds=end_time - start_time)
 
 def init_logging():
-    logging.basicConfig(filename="src/log/log.log",
+    logging.basicConfig(filename="logs/log.log",
                     format='%(asctime)s %(message)s', 
                     filemode='a')
 

@@ -1,4 +1,4 @@
-from src.utils.redis import RedisCache
+from utils.cache.redis import RedisCache
 import yfinance as yf
 import simplejson as sjson
 import json
