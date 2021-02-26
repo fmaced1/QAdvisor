@@ -1,3 +1,2 @@
-# Custom
-*.SA.jpeg
-*.SA.json
+/src/charts/*/*.SA.jpeg
+/src/charts/*/*.SA.json

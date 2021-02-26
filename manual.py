@@ -9,17 +9,17 @@ from utils.charts.charts import Charts
 cron = Cronometer()
 start_time = cron.start_cronometer()
 
-"""TODO Config - arquivo de config"""
+#"""TODO Config - arquivo de config"""
 df_tickers_list = pd.read_csv("config/tickers.csv", sep=',')
 ignore_tickers = ""     #["CSNA3.SA", "USIM5.SA"]
-consider_tickers = ["COGN3.SA", "MGLU3.SA"]
+consider_tickers = ["COGN3.SA", "MGLU3.SA", "VVAR3.SA", "CIEL3.SA"]
 period = "1y"
 interval = "1wk"
 candles = 3
 signals_of_revert = ["R+"]
 
-"""Cleanup folders"""
-folders_to_cleanup = ["charts/html/", "charts/jpeg/"]
+#"""Cleanup folders"""
+folders_to_cleanup = ["src/charts/html/", "src/charts/jpeg/"]
 remove_files_in_folder(folders_to_cleanup)
 remove_file("analisys.txt")
 
@@ -42,9 +42,9 @@ for i in range(0, len(df_tickers_list.index)):
         print(ticker)
         filename = Charts.candlestick_chart(ticker, stocks_df, extension_type="jpeg")
 
-        #photos.append(open(filename, 'rb'))
+        photos.append(open(filename, 'rb'))
 
-        """ Send reports via Telegram"""
+        #""" Send reports via Telegram"""
         #if filename is not None:
         #    Telebot().send_photo(filename)
 
@@ -53,4 +53,4 @@ for i in range(0, len(df_tickers_list.index)):
 #if photos:
 #    Telebot().send_photos(photos)
 
-print(cron.stop_cronometer(start_time))
+print("Tempo total da execucao {}".format(cron.stop_cronometer(start_time)))

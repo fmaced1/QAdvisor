@@ -1,0 +1,16 @@
+kaleido # Generate PDF (https://pypi.org/project/kaleido/)
+pandas
+plotly
+stockstats
+yfinance
+streamlit
+numpy
+
+psutil
+pretty-html-table
+pyyaml
+send-email
+simplejson
+Pillow
+telegram
+redis

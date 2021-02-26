@@ -1,14 +1,14 @@
 import yfinance as yf
 
-from src.utils.tools import *
-from src.utils._telegram import Bot
-from src.utils.charts.charts import Charts
-from src.utils.strategies.macd import Macd
-from src.utils.ydownload import StockData
+from utils.tools import *
+from utils._telegram import Bot
+from utils.charts.charts import Charts
+from utils.strategies.macd import Macd
+from utils.ydownload import StockData
 
 import pandas as pd
 
-df_tickers_list = pd.read_csv("src/config/tickers.csv", sep=',')
+df_tickers_list = pd.read_csv("config/tickers.csv", sep=',')
 
 """stocks_df = Macd.macd_analisys(
     StockData.download(ticker, "3mo", "1wk"), ["R+"], 5)

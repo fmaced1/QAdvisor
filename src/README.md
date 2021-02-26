@@ -7,17 +7,8 @@
 # docker network create redis
 # docker run -d --name=redis --network redis -p 6379:6379 redis:latest
 
-# Generate PDF (https://pypi.org/project/kaleido/)
-kaleido
+# Build image
+# docker build -t fin-advisor:1.0.0 .
 
-plotly
-psutil
-pandas
-pretty-html-table
-pyyaml
-redis
-send-email
-simplejson
-stockstats
-telegram
-yfinance
+# Run Dashboard container
+# docker run -it --rm --network=redis -v $(pwd)/src:/src -p 8501:8501 --name=fin-advisor fin-advisor:1.0.0

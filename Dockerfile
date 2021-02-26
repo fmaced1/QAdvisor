@@ -1,14 +1,13 @@
-FROM python:3.8-slim-buster as base
+FROM python:3.8-slim-buster
 
-FROM base as builder
-ENV PY_LIBS="/libs"
-RUN mkdir $PY_LIBS
-WORKDIR $PY_LIBS
-COPY requirements.txt $PY_LIBS
-RUN pip install --prefix=$PY_LIBS --no-warn-script-location -r requirements.txt
+COPY ./src/requirements.txt /src/
+WORKDIR /src/
+RUN pip install -r requirements.txt
+EXPOSE 8501 6379
 
-FROM base
-ENV APP="/app"
-COPY --from=builder $PY_LIBS /usr/local/bin/
-COPY src $APP
-WORKDIR $APP
+COPY ./src/ /src
+
+ENV REDIS_HOST="redis" REDIS_PORT="6379"
+
+ENTRYPOINT ["streamlit","run"]
+CMD ["app.py"]
