@@ -47,6 +47,8 @@ Até o momento o bot analisa todas as ações da B3 e envia pelo telegram os rep
 
 ![JBSS3](images/advisor_report.jpeg)
 
+![DASH](images/online_dashboard.png)
+
 #### Report com o detalhamento da carteira.
 
 - To-Do - WIP
