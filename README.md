@@ -1,4 +1,4 @@
-# QAdvisor
+# FinAdvisor
 
 ## Índice
 
@@ -30,14 +30,13 @@ Bot escrito para ajudar na escolha de investimentos e gerenciamento de carteira.
 
 - [ ]  Infra
     - [X]  Cache com redis.
-    - [ ]  Flask no GCP (Cloud Run) com terraform.
     - [ ]  Banco de dados (Persistir os dados da carteira)
-    - [ ]  Dashboard online.
+    - [X]  Dashboard online - Streamlite.
 
 - [ ]  Python
-    - [ ]  Requirements
+    - [X]  Requirements
     - [ ]  Virtual Env
-    - [ ]  Dockerfile
+    - [X]  Dockerfile
 
 
 ## Como funciona? <a name = "how_it_works"></a>
