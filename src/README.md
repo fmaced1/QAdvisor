@@ -10,5 +10,11 @@
 # Build image
 # docker build -t fin-advisor:1.0.0 .
 
+# Creating network
+# docker network create redis
+
 # Run Dashboard container
-# docker run -it --rm --network=redis -v $(pwd)/src:/src -p 8501:8501 --name=fin-advisor fin-advisor:1.0.0
+# docker run -d --network=redis -v $(pwd)/src:/src -p 8501:8501 --name=fin-advisor fin-advisor:1.0.0
+
+# Streamlit
+# Acess -> 0.0.0.0:8501

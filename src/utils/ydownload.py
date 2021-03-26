@@ -5,7 +5,7 @@ import json
 import pandas as pd
 
 class StockData(object):
-    def get_history(self, ticker=str, period=str, interval=str, expiration_seconds=(60*60)*1):
+    def get_history(self, ticker=str, period=str, interval=str, expiration_seconds=60*60):
         try:
             return RedisCache().get_value(ticker)
         except TypeError:
@@ -14,7 +14,7 @@ class StockData(object):
             
             return RedisCache().get_value(ticker)
 
-    def get_info(self, ticker=str, expiration_seconds=(60*60)*1):
+    def get_info(self, ticker=str, expiration_seconds=60*60):
         ticker_info = "{}_{}".format(ticker, "info")
         try:
             return pd.DataFrame.from_dict(RedisCache().get_value(ticker_info), orient='index')[0]

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: fin-advisor
+  name: fin-advisor
+  namespace: fin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fin-advisor
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: fin-advisor
+    spec:
+      containers:
+      - image: fmaced1/fin-advisor:latest
+        name: fin-advisor
+        ports:
+          - name: dash
+            containerPort: 8501
+        resources: {}
+        volumeMounts:
+          - mountPath: /src
+            name: src
+      imagePullSecrets:
+      - name: regcred
+      volumes:
+        - name: src
+          hostPath:
+            path: /src
+status: {}
