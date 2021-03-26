@@ -19,19 +19,25 @@ spec:
         app: fin-advisor
     spec:
       containers:
-      - image: fmaced1/fin-advisor:latest
+      - image: fmaced1/fin-advisor:1.0.5
         name: fin-advisor
         ports:
           - name: dash
             containerPort: 8501
         resources: {}
+        env:
+          - name: REDIS_HOST
+            value: redis
+          - name: REDIS_PORT
+            value: "6379"
+        imagePullPolicy: Always
         volumeMounts:
-          - mountPath: /src
-            name: src
+          - mountPath: /app
+            name: app
       imagePullSecrets:
       - name: regcred
       volumes:
-        - name: src
+        - name: app
           hostPath:
-            path: /src
+            path: /app
 status: {}
