@@ -9,7 +9,7 @@
 
 ## Sobre <a name = "about"></a>
 
-Bot escrito para ajudar na escolha de investimentos e gerenciamento de carteira.
+This project was created in 2021 when I was thinking about automating my stock market analysis to know if there was a buy or sell momentum, that bot gathers the historical prices for almost all companies listed in the Brazilan Stock Market, applies the MACD analysis and show only stocks in an interesting momentum to buy or sell, with this automation we can analyse all stocks in a minute instead of 2+ hours.
 
 ## Funcionalidades <a name = "features"></a>
 
