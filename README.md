@@ -38,10 +38,14 @@ This project was created in 2021 when I was thinking about automating my stock m
     - [ ]  Virtual Env
     - [X]  Dockerfile
 
+## How to build the docker image
+```
+# To start the app and redis
+docker-compose up --build
 
-## Como funciona? <a name = "how_it_works"></a>
-
-Até o momento o bot analisa todas as ações da B3 e envia pelo telegram os reports de cada ação que ele encontrou um possível ponto de compra nos últimos 4 períodos.
+# And to remove
+docker image rm -f finadvisor-fin-advisor
+```
 
 #### Report com a análise da ação.
 

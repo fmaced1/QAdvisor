@@ -2,4 +2,6 @@
 
 mkdir /src/charts/html/ /src/charts/jpeg/ -p
 
-streamlit run $1
+source /src/venv/bin/activate
+
+exec "$@"

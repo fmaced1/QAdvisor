@@ -1,7 +1,7 @@
 import logging, uuid, os
 import simplejson as json
 
-logging.basicConfig(filename="src/logs/log.log",
+logging.basicConfig(filename="logs/log.log",
                 format='%(asctime)s %(message)s', 
                 filemode='a')
 
@@ -20,7 +20,7 @@ class Cronometer(object):
         return timedelta(seconds=end_time - start_time)
 
 def init_logging():
-    logging.basicConfig(filename="src/logs/log.log",
+    logging.basicConfig(filename="logs/log.log",
                     format='%(asctime)s %(message)s', 
                     filemode='a')
 
@@ -95,18 +95,24 @@ def write_json(content, json_filename):
 
 def write_output(content, dir_to_file):
 
-    """TODO melhorar o tratamento dessa funcao"""
+    try:
+        if not dir_to_file:
+            dir_to_file = '{0}output-{1}'.format(dir_to_file, uuid.uuid4())
 
-    if not dir_to_file:
-        dir_to_file = '{0}output-{1}'.format(dir_to_file, uuid.uuid4())
+        os.makedirs(os.path.dirname(dir_to_file), exist_ok=True)
 
-    f = open(dir_to_file, 'a')
-    f.write(content)
-    f.close()
+        with open(dir_to_file, 'a') as f:
+            f.write(content)
 
-    log.info('function: {} dir_to_file: {}'.format('write_output', dir_to_file))
-
-    return dir_to_file
+        log.info('function: {} dir_to_file: {}'.format('write_output', dir_to_file))
+        return dir_to_file
+    
+    except OSError as e:
+        log.error('Unable to write in the file: {}. Error: {}'.format(dir_to_file, e))
+        raise
+    except Exception as e:
+        log.error('Unexpected error: {}'.format(e))
+        raise
 
 def remove_files_in_folder(folders_to_cleanup):
     for folder in folders_to_cleanup:
