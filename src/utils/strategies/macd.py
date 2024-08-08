@@ -37,7 +37,12 @@ class Macd:
 
             stocks_df['macdh_a'] = df
 
-            if (stocks_df['macdh_a'][-candles:].apply(lambda sentence: any(word in sentence for word in signals_of_revert))).any() and ticker not in ignore_tickers or ticker in consider_tickers:
+            # Refactor this function to enable filtering which stocks will be processed
+            if (stocks_df['macdh_a'][-candles:].apply(
+                lambda sentence: any(word in sentence for word in signals_of_revert))).any(
+                ) and ticker not in ignore_tickers or not ticker in consider_tickers:
+                #) and ticker not in ignore_tickers or ticker in consider_tickers:
+                
                 stocks_df = stocks_df.iloc[::-1]
                 return stocks_df
 
