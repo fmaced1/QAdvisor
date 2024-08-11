@@ -1,6 +1,6 @@
 # FinAdvisor
 
-## Índice
+## Table of content <a name = "table-of-content"></a>
 
 - [Description](#description)
 - [Features](#features)
@@ -15,26 +15,11 @@ This project was created in 2021 when I was thinking about automating my stock m
 
 ## Features <a name = "features"></a>
 
-- Data Collection: Gathers financial data of stocks listed on B3.
-- Technical Analysis: Uses indicators such as MACD, RSI, Moving Averages, etc.
-- Fundamental Analysis: Considers financial indicators like P/E Ratio, ROE, Dividend Yield, etc.
-- Report Generation: Produces reports with buy or sell recommendations.
-- Graphical Interface: Uses Streamlit for visualization of analyses.
-
-- [ ] Strategies
-    - [ ] Macdh
-        - [X] Macdh (By Week)
-        - [ ] Macdh (By Day)
-    - [ ] RSI
-    - [ ] Momentum
-    - [ ] PEG Ratio Ranking
-
-- [ ] Reports
-    - [X] Sends reports via Telegram.
-
-- [ ] Infra
-    - [X] Redis cache
-    - [X] Dashboard online - Streamlite
+- [X] Data Collection: Gathers financial data of stocks listed on B3.
+- [  ] Technical Analysis: Uses indicators such as MACD [X], RSI [  ], Moving Averages[  ], etc.
+- [  ] Fundamental Analysis: Considers financial indicators like P/E Ratio [  ], ROE [  ], Dividend Yield [  ], etc.
+- [X] Report Generation: Produces reports with buy or sell recommendations.
+- [X] Graphical Interface: Uses Streamlit for visualization of analyses.
 
 ## Requirements <a name = "requirements"></a>
 Python 3.12 or higher (Libraries listed in requirements.txt)
@@ -64,7 +49,7 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 1. Clone the repository:
 ```
 git clone https://github.com/fmaced1/finAdvisor.git
-cd finAdvisor
+cd finAdvisor/app
 ```
 
 2. Create and activate a virtual environment:
@@ -88,6 +73,10 @@ streamlit run app.py
 Open your web browser and navigate to http://localhost:8501 to view the dashboard.
 ```
 
+#### New Arch Diagram (To-Be)
+
+![Arch Diagram](images/arch-diagram.png)
+
 #### Analisys Report
 
 ![JBSS3](images/advisor_report.jpeg)
@@ -105,7 +94,7 @@ Contributions are welcome! Please follow these steps to contribute:
 - Open a Pull Request.
 
 #### License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 #### Contact
 For any questions or suggestions, feel free to reach out to:
