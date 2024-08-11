@@ -19,14 +19,14 @@ def display_macdh_analysis(ticker, period, interval, signals_of_revert, candles,
     )
 
     if isinstance(stocks_df, pd.DataFrame) and not stocks_df.empty:
-        with st.expander(f"Detalhes para {ticker}"):
-            st.subheader("Price:")
+        with st.expander(f"MACDh Analisys for ticker: {ticker}"):
+            st.markdown("###### Price:")
             st.line_chart(stocks_df["close"])
             
-            st.subheader("MACDh:")
+            st.markdown("###### MACDh:")
             st.area_chart(stocks_df["macdh"])
             
-            st.subheader("Dataframe:")
+            st.markdown("###### Dataframe:")
             st.dataframe(stocks_df.style.highlight_min(axis=0, color='red'))
 
 def display_analysis_report(ticker, period, interval, signals_of_revert, candles, consider_tickers, ignore_tickers):
@@ -40,7 +40,7 @@ def display_analysis_report(ticker, period, interval, signals_of_revert, candles
     )
 
     if isinstance(stocks_df, pd.DataFrame) and not stocks_df.empty:
-        with st.expander(f"Relatório para {ticker}"):
+        with st.expander(f"{ticker}'s report:"):
             filename = Charts.candlestick_chart(ticker, stocks_df, extension_type="jpeg")
             image = Image.open(filename)
             st.image(image, caption=f'Ticker: {ticker}', use_column_width=True)
@@ -51,10 +51,11 @@ def main():
     remove_files_in_folder(folders_to_cleanup)
     remove_file("analisys.txt")
 
-    st.sidebar.title('FinAdvisor :sunglasses:')
+    st.sidebar.title('FinAdvisor')
+    st.sidebar.markdown("###### The bot gathers historical prices for all companies listed on the Brazilian Stock Market, applies the MACD analysis, and displays only the stocks with buy or sell recommendations.")
 
     add_selectbox = st.sidebar.selectbox(
-        "Selecione o indicador para filtrar:",
+        "Select the indicator to filter:",
         ["Filter by MACDH", "Analisys Report"]
     )
 
@@ -62,14 +63,12 @@ def main():
         ticker = f"{row['tickers']}.SA"
 
         if add_selectbox == "Filter by MACDH":
-            #st.header("Filtrando ações pela estratégia MACDH")
             display_macdh_analysis(ticker, period, interval, signals_of_revert, candles, consider_tickers, ignore_tickers)
         elif add_selectbox == "Analisys Report":
-            #st.header("Relatórios gerados no Plotly - Estratégia MACDH")
             display_analysis_report(ticker, period, interval, signals_of_revert, candles, consider_tickers, ignore_tickers)
 
     elapsed_time = Cronometer().stop_cronometer(start_time)
-    st.write(f"Tempo total da execução: {elapsed_time}")
+    st.write(f"Total execution time: {elapsed_time}")
 
 if __name__ == "__main__":
     main()
