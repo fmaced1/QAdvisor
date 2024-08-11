@@ -73,10 +73,6 @@ streamlit run app.py
 Open your web browser and navigate to http://localhost:8501 to view the dashboard.
 ```
 
-#### New Arch Diagram (To-Be)
-
-![Arch Diagram](images/arch-diagram.png)
-
 #### Analisys Report
 
 ![JBSS3](images/advisor_report.jpeg)
