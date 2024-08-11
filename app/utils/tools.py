@@ -25,6 +25,8 @@ class Cronometer:
 
 def percentage_change(old_value: float, new_value: float) -> float:
     """Calculates the percentage change between two prices."""
+    if old_value == 0:
+        raise ValueError("old_value cannot be zero")
     return 100 * (new_value - old_value) / old_value
 
 def file_exists(filename: str) -> str:
