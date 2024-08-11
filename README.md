@@ -11,7 +11,7 @@
 
 ## Description <a name = "description"></a>
 
-This project was created in 2021 when I was thinking about automating my stock market analysis to know if there was a buy or sell momentum. FinAdvisor is a Python application that automates the analysis of all stocks listed on the Brazilian stock exchange (B3). The bot gathers historical prices for almost all companies listed on the Brazilian Stock Market, applies the MACD analysis, and displays only the stocks with buy or sell recommendations. With this automation, we can analyze all stocks in a minute instead of 2+ hours, making it ideal for investors looking to make informed decisions based on automated analyses.
+This project was created in 2021 when I was thinking about automating my stock market analysis to know if there was a buy or sell momentum. FinAdvisor is a Python application that automates the analysis of all stocks listed on the Brazilian stock exchange (B3). The bot gathers historical prices for all companies listed on the Brazilian Stock Market, applies the MACD analysis, and displays only the stocks with buy or sell recommendations. With this automation, we can analyze all stocks in a minute instead of 2+ hours, making it ideal for investors looking to make informed decisions based on automated analyses.
 
 ## Features <a name = "features"></a>
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 4. Run the application:
 ```
-streamlit run app.py
+streamlit run app.py --server.runOnSave=true
 ```
 
 5. Access the application:
@@ -75,9 +75,9 @@ Open your web browser and navigate to http://localhost:8501 to view the dashboar
 
 #### Analisys Report
 
-![JBSS3](images/advisor_report.jpeg)
+![FinAdvisor](images/fin-advisor-gif.gif)
 
-![DASH](images/online_dashboard.png)
+![FinAdvisor](images/fin-advisor-gif-1.gif)
 
 
 #### Contributing

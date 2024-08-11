@@ -1,6 +1,6 @@
 # Custom directories and files
 */venv
-*config.ini*
+*telegram.keys
 app/charts/
 app/json/analysis/
 *.SA.jpeg
